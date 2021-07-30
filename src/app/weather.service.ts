@@ -11,6 +11,8 @@ export class WeatherService {
   constructor(private http: HttpClient) {}
 
   getWeather(city: string): Observable<Weather> {
+    // remove white space between terms. This makes the city input conform to the OpenWeather API URL standards.
+    city = city.replace(/,\s/g, ',');
     const params = new HttpParams()
       .set('units', 'metric')
       .set('q', city)
