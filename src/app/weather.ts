@@ -4,7 +4,7 @@ interface WeatherInfo {
 }
 
 export interface Weather {
-  weather: WeatherInfo;
+  weather: WeatherInfo[];
   main: {
     temp: number;
     pressure: number;
