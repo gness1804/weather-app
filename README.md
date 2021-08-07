@@ -1,5 +1,7 @@
 # WeatherApp
 
+![Screenshot](https://github.com/gness1804/weather-app/blob/master/src/assets/icons/screenshot.png)
+
 This project is based on the fifth chapter of Aristeidis Bampakos, [Angular Projects: Second Edition](https://www.amazon.com/Angular-Projects-exploring-cutting-edge-technologies/dp/1800205260). <br />
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
