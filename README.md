@@ -1,6 +1,18 @@
 # WeatherApp
 
+This project is based on the fifth chapter of Aristeidis Bampakos, [Angular Projects: Second Edition](https://www.amazon.com/Angular-Projects-exploring-cutting-edge-technologies/dp/1800205260). <br />
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+
+## Running
+To go to the production version and install as a PWA: [https://weather-app-d59cc.web.app](https://weather-app-d59cc.web.app).
+
+## Basic Usage
+Enter in a city name and either hit enter or tap on the magnifying glass icon. This will search for weather for a city. The  city can be anywhere in the world. You also enter in optional state/province and country params which have to be in order. Examples:
+<br />
+`chicago` <br />
+`chicago, il, usa` <br />
+
+If using a state/province, a country must be specified (so in other words `chicago, il` won't work).
 
 ## Development server
 
@@ -13,6 +25,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Serve (prod)
+Run `yarn server` to spin up a production version of the app in the browser. Or, simply run `yarn prod` to run both the build and server commands.
 
 ## Running unit tests
 
